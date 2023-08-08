@@ -7,6 +7,5 @@ import { Component } from "@angular/core";
 })
 
 export class helloWorldComponent{
-    firstName = 'Sachin';
-    lastName = 'Tendulkar'
+    title = 'Learning Angular is Challenging';
 }
