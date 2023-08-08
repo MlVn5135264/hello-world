@@ -7,5 +7,5 @@ import { Component } from "@angular/core";
 })
 
 export class helloWorldComponent{
-    title = 'Learning Angular is Challenging';
+    name = "Test"
 }
