@@ -7,5 +7,9 @@ import { Component } from "@angular/core";
 })
 
 export class helloWorldComponent{
-    name = "Test"
+    name = 'Wecome to the Angular World Mohan'
+    getValue()
+    {
+        return this.name
+    }
 }
