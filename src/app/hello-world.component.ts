@@ -8,8 +8,13 @@ import { Component } from "@angular/core";
 
 export class helloWorldComponent{
     name = 'Wecome to the Angular World Mohan'
+    color = 'red'
     getValue()
     {
         return this.name
+    }
+
+    getMax(first: number, second: number){
+        return Math.max(first, second)
     }
 }
